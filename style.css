@@ -1,0 +1,22 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    margin: 0%;
+    padding: 0%;
+    background-color:darkslateblue;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
