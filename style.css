@@ -1,14 +1,14 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color: blueviolet;
+    background-color: rgb(97, 131, 170);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav {
     margin: 0%;
     padding: 0%;
-    background-color:darkslateblue;
+    background-color:darkslateblue !important;
 }
 
 nav .navbar {
@@ -19,4 +19,21 @@ nav .navbar {
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
+}
+.nav-link {
+    color: white !important;
+    
+    height: auto;
+    text-decoration: none;
+    transform: translateX(500px);
+}
+.navbar-toggler {
+    transform: translateX(500px);
+}
+
+.two-color-text {
+    background-image: linear-gradient(to right, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
